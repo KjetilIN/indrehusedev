@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-[50px]">
             <div className="border-2 border-secSh border-spacing rounded-xl shadow-xl w-3/5">
                 <div className="bg-hero overflow-hidden relative h-[600px]">
                   <img src="./img/me.PNG" className="rounded-3xl relative top-10 left-10 w-96"></img>

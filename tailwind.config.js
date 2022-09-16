@@ -32,7 +32,7 @@ module.exports = {
       'mainSH': '#b4806c',
       'secSh': '#818f8f',
       'green': '#13ce66',
-      'yellow': '#ffc82c',
+      'white': 'rgb(255 255 255)',
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',

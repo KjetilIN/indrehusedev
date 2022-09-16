@@ -46,7 +46,7 @@ export default function About() {
                 </div>
 
                 <div className="myItem2">
-                    <img className="relative mx-40 my-1" src="./img/flag.gif" />
+                    <img className=" sm:hidden md:block relative mx-40 my-1" src="./img/prog.svg" />
                 </div>
             </div>
         </div>

@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('../public/img/wave.svg')",
+        'profile': "url('../public/img/me.PNG')",
+      },
+      boxShadow:{
+        'card1': "20px 20px rgba(0,0,0,.25)",
+        'card2': "10px 10px rgba(0,0,0,.55)",
+      }
+    },
     colors: {
       'sec': '#fbf5ec',
       'main': '#e77249',

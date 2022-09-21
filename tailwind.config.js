@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('../public/img/wave.svg')",
+        'about': "url('../public/img/grap.svg')",
         'profile': "url('../public/img/me.PNG')",
       },
       boxShadow:{
@@ -30,7 +30,8 @@ module.exports = {
       'sec': '#022B3A',
       'main': '#EFECCA',
       'orangetheme': '#D36135',
-      'darkMain': '#679289'
+      'darkMain': '#679289',
+      'red': '#b33232'
     },
 
     fontFamily: {

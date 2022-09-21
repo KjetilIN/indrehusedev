@@ -27,20 +27,15 @@ module.exports = {
       }
     },
     colors: {
-      'sec': '#fbf5ec',
-      'main': '#e77249',
-      'mainSH': '#b4806c',
-      'secSh': '#818f8f',
-      'green': '#13ce66',
-      'white': 'rgb(255 255 255)',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'sec': '#022B3A',
+      'main': '#EFECCA',
+      'orangetheme': '#D36135',
+      'darkMain': '#679289'
     },
 
     fontFamily: {
       'merri': ['Roboto', 'sans-bold'],
-      'code': ['Fira Code', 'sans'],
+      'jost': ['jost'],
     },
   },
   plugins: [],

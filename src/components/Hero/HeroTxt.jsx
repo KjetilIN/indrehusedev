@@ -7,8 +7,8 @@ export const HeroTxt = () => {
 
   return (
     <div className='m-8 md:flex-col'>
-        <h2 className='text-jost text-main text-3xl md:text-4xl'>Hi, 🙌</h2>
-        <h1 className='text-jost text-main text-4xl md:text-5xl'>I'm Kjetil Indrehus.</h1>
+        <h2 className='font-jost text-main text-3xl md:text-4xl'>Hi, 🙌</h2>
+        <h1 className='font-jost text-main text-4xl md:text-5xl'>I'm Kjetil Indrehus.</h1>
         <Typewriter options={{
             wrapperClassName:"text-darkMain text-xl md:text-3xl",
             strings:keyWords,

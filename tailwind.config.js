@@ -39,5 +39,5 @@ module.exports = {
       'jost': ['jost'],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

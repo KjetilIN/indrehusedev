@@ -1,4 +1,5 @@
 import React from "react";
+import { NavBurger } from "./NavBurger";
 
 import { NavButton } from "./NavButton";
 
@@ -8,10 +9,12 @@ export const NavBar = () => {
     return (
         <nav className="reltaive container w-full h-3 pt-7">
             <div className="flex items-center justify-between pl-7">
-                <h1 className="text-main font-jost md:text-5xl text-3xl">{title}</h1>
+                <h1 className="text-main font-jost md:text-5xl text-3xl">
+                    {title}
+                </h1>
 
-                <img className="block md:hidden h-6 m-3" src="./img/main-menu.png" alt="burgerMenu"/>
-
+    
+                <NavBurger/>
 
                 <ul className="hidden md:flex items-end">
                     <NavButton text="About" />

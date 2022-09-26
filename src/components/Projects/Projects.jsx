@@ -42,7 +42,7 @@ export const Projects = () => {
     
     ];
     return (
-        <div className="bg-sec h-[100%] w-full">
+        <div className="bg-sec h-[110%] w-full ">
             <div className="flex flex-col items-center justify-center pt-20">
 
                 <h1 className="p-10 text-main text-4xl lg:text-6xl">{overviewTitle}</h1>

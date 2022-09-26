@@ -3,7 +3,7 @@ import React from "react";
 export const ProjectCard = (props) => {
     return (
         <>
-            <div className="card lg:w-[600px] bg-base-100 shadow-xl carousel-item w-[80%] m-auto mb-[40px]">
+            <div className="card lg:w-[600px] bg-base-100 shadow-xl carousel-item w-[80%] m-auto">
                 <figure>
                     {props.img ? <img src={props.img} alt="Shoes" /> : ""}
                 </figure>

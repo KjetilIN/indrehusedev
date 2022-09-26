@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
     const overviewTitle = "My Projects </>"
 
-    const ITEMS = 2;
+    const ITEMS = 3;
 
     const getPrevItemNumber = (itemNumber) => {
         if (itemNumber == 0) {
@@ -38,6 +38,15 @@ export const Projects = () => {
             description:
                 "Space Invaders created with GoLang, and Ebiten",
             img: "https://user-images.githubusercontent.com/66110094/185804774-a560cfb9-a3ff-4e59-adbe-38bca1c127cc.gif",
+        },
+        {
+            id: 2,
+            title: "Portfolio Website",
+            languages: ["React","Tailwind css", "DaysyUi"],
+            isNew: true,
+            description:
+                "My portfololio Website created to display my projects",
+            img: "./img/web.png",
         },
     
     ];

@@ -7,14 +7,14 @@ export const Projects = () => {
     const ITEMS = 3;
 
     const getPrevItemNumber = (itemNumber) => {
-        if (itemNumber == 0) {
+        if (itemNumber === 0) {
             return ITEMS-1;
         }
         return itemNumber - 1;
     };
 
     const getNextItemNumber = (itemNumber) => {
-        if (itemNumber == ITEMS - 1) {
+        if (itemNumber === ITEMS - 1) {
             return 0;
         }
         return itemNumber + 1;

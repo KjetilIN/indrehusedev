@@ -34,7 +34,7 @@ export const InfoCard = () => {
                 <h2 className="card-title">My tools!</h2>
                 <div className="mx-auto">
                     {skills.map((skill) => (
-                        <InfoBadge title={skill} />
+                        <InfoBadge title={skill} key={Math.random()}/>
                     ))}
                 </div>
             </div>

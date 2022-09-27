@@ -16,7 +16,7 @@ export const NavBar = () => {
     
                 <NavBurger/>
 
-                <ul className="hidden md:flex items-end">
+                <ul className="hidden md:flex items-end gap-6">
                     <NavButton text="About" />
                     <NavButton text="Projects" />
                     <NavButton text="Contact" />

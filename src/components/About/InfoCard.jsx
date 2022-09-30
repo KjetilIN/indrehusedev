@@ -15,7 +15,7 @@ export const InfoCard = () => {
     ];
 
     return (
-        <div className="card w-96 bg-base-100 shadow-xl px-2">
+        <div className="card w-96 h-[680px] bg-base-100 shadow-xl px-2 my-2">
             <div className="card-body">
                 <h2 className="card-title">Who am I?</h2>
                 <p>

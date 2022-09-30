@@ -8,7 +8,7 @@ export const ExperienceCard = (props) => {
                         <img src={props.img} alt={props.title} />
                     </div>
                 </div>
-            <div className="card md:w-96 bg-sec text-white">
+            <div className="card w-96 bg-sec text-white">
                 <div className="card-body">
                     <h2 className="card-title">{props.title}</h2>
                     <p>{props.text}</p>

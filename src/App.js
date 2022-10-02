@@ -4,6 +4,8 @@ import { NavBar } from './components/NavBar/NavBar';
 import { About } from './components/About/About';
 import { Projects } from './components/Projects/Projects';
 import { Footer } from './components/Footer/Footer';
+import { Contact } from './components/Contact/Contact';
+
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Hero/>
       <About/>
       <Projects/>
+      <Contact/>
+      
       <Footer/>
     </div>
   );

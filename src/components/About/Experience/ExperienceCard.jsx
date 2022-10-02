@@ -2,7 +2,7 @@ import React from "react";
 
 export const ExperienceCard = (props) => {
     return (
-        <div>
+        <div className="transform transition duration-500 hover:scale-90">
             <div className="flex justify-center">
                 <div className="avatar relative -bottom-7 z-10 animate-bounce">
                     <div className="w-24 rounded-full ring ring-orangetheme ring-offset-base-100 ring-offset-0">

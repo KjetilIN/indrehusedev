@@ -24,7 +24,6 @@ export const Contact = () => {
                 </ContactList>
             </ul>
 
-            
         </div>
     );
 };

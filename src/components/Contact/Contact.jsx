@@ -5,6 +5,9 @@ import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { ContactList } from "./ContactList";
 
 export const Contact = () => {
+    const email = "kjetilindrehus@gmail.com"
+
+
     return (
         <div className=" flex-col h-auto bg-main rounded xl py-10 mb-5">
             <Title text="Contact me!" />
@@ -23,6 +26,16 @@ export const Contact = () => {
                     Twitter
                 </ContactList>
             </ul>
+
+            <div className="divider after:bg-sec before:bg-sec text-sec">OR EMAIL ME 📪</div>
+
+            <div className="flex justify-center mt-8">
+                <a href={`mailto:${email}`} className="cursor-pointer">
+                    <h1 className="font-jost text-sec text-3xl hover:underline transform transition duration-500 hover:scale-110">{email}</h1>  
+                </a>
+              
+            </div>
+            
 
         </div>
     );

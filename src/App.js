@@ -10,7 +10,7 @@ import { Contact } from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="bg-sec px-10">
+    <div className="bg-sec px-3 overflow-hidden">
       <NavBar/>
       <Hero/>
       <About/>

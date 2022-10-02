@@ -8,18 +8,18 @@ export const Contact = () => {
     return (
         <div className=" flex-col h-auto bg-main rounded xl py-10 mb-5">
             <Title text="Contact me!" />
-            <ul class="flex flex-col justify-center items-center list-none text-sec gap-5">
+            <ul className="flex flex-col justify-center items-center list-none text-sec gap-5">
                 <ContactList link="https://github.com/KjetilIN" handle="@KjetilIN">
-                    <FaGithubSquare />
+                    <FaGithubSquare className="text-4xl"/>
                     Github
                 </ContactList>
 
                 <ContactList link="https://www.linkedin.com/in/kjetil-indrehus/" handle="Kjetil Indrehus">
-                    <FaLinkedin />
+                    <FaLinkedin className="text-5xl"/>
                     LinkedIN
                 </ContactList>
                 <ContactList link="https://twitter.com/KIndrehus" handle="@KIndrehus">
-                    <FaTwitterSquare />
+                    <FaTwitterSquare className="text-4xl" />
                     Twitter
                 </ContactList>
             </ul>

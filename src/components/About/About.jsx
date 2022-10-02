@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from "./Title";
+import { Title } from "../UX/Title";
 import { Experience } from "./Experience/Experience";
 import { ImageCard } from "./ImageCard";
 import { InfoCard } from "./InfoCard";

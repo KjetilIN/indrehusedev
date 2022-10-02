@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from "../About/Title";
+import { Title } from "../UX/Title";
 
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { ContactList } from "./ContactList";

@@ -4,7 +4,7 @@ export const Title = (props) => {
     return (
         <div className="flex justify-center py-6">
             <div className="relative">
-                {props.light == true ? (
+                {props.light === true ? (
                     <h1 className="text-main font-jost text-3xl font-bold relative z-10 w-full md:text-5xl">
                         {props.text}
                     </h1>

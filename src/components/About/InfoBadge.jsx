@@ -10,15 +10,9 @@ function getRandomColor() {
     return color;
 }
 
-//Invers given hex
-function invertHex(hex) {
-    return (Number(`0x1${hex}`) ^ 0xFFFFFF).toString(16).substr(1).toUpperCase()
-}
-
 export const InfoBadge = (props) => {
 
     var bgColor = getRandomColor();
-    var primaryColor = invertHex(bgColor);
 
     const style = {
         color: "black",

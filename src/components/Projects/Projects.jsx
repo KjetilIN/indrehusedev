@@ -52,7 +52,7 @@ export const Projects = () => {
     
     ];
     return (
-        <div className="bg-sec h-[110%] w-full ">
+        <div id="projects" className="bg-sec h-[110%] w-full ">
             <div className="flex flex-col items-center justify-center pt-20">
 
                 <Title text={overviewTitle} light={true}/>

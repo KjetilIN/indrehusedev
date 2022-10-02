@@ -28,7 +28,7 @@ export const About = () => {
 
 
     return (
-        <div className="flex-col justify-center h-auto bg-main rounded-xl">
+        <div id="about" className="flex-col justify-center h-auto bg-main rounded-xl">
             <Title text="About Me!"/>
             <div className="flex flex-col-reverse gap-5 items-center px-3 md:flex-row md:justify-center">
                 <InfoCard/>

@@ -9,7 +9,7 @@ export const Contact = () => {
 
 
     return (
-        <div className=" flex-col h-auto bg-main rounded xl py-10 mb-5">
+        <div id="contact" className=" flex-col h-auto bg-main rounded xl py-10 mb-5">
             <Title text="Contact me!" />
             <ul className="flex flex-col justify-center items-center list-none text-sec gap-5">
                 <ContactList link="https://github.com/KjetilIN" handle="@KjetilIN">

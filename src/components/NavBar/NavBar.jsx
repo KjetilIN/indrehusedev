@@ -1,5 +1,5 @@
 import React from "react";
-import { NavBurger } from "./NavBurger";
+import {Link} from 'react-scroll';
 
 import { NavButton } from "./NavButton";
 
@@ -13,13 +13,11 @@ export const NavBar = () => {
                     {title}
                 </h1>
 
-    
-                <NavBurger/>
-
                 <ul className="hidden md:flex items-end gap-6">
-                    <NavButton text="About" />
-                    <NavButton text="Projects" />
-                    <NavButton text="Contact" />
+                    <Link to="about" smooth={true}><NavButton text="About" /></Link>
+                    <Link to="projects" smooth={true}><NavButton text="Projects" /></Link>
+                    <Link to="contact" smooth={true}><NavButton text="Contact" /></Link>
+        
                 </ul>
             </div>
         </nav>

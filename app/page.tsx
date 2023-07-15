@@ -1,5 +1,6 @@
 "use client"
 
+import ProjectsSection from "@/components/projects";
 import React, { useState } from "react";
 
 export default function Home() {
@@ -17,6 +18,8 @@ export default function Home() {
           Currently taking my Bachelors as Computer Engineering at NTNU Gjøvik
         </p>
       </div>
+
+      <ProjectsSection />
     </main>
   );
 }

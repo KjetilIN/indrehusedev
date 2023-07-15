@@ -9,7 +9,7 @@ export default function ProjectsSection() {
                     My Projects
                 </h2>
                 <p className="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400">
-                    Crafted with curiosity and a hunger for more knowledge. 
+                    Crafted with curiosity and hunger for more knowledge. 
                 </p>
             </div>
 

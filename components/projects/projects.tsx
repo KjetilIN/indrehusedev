@@ -15,11 +15,11 @@ export default function ProjectsSection() {
             </div>
 
             <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-                <Project company={"Start Gjøvik AS"} description={"Website for the student organisation."} link={"www.startgjovik.no"} projectTitle="Start Gjøvik Website"  />
+                <Project company={"Start Gjøvik AS"} description={"Website for the student organisation."} link={"https://github.com/IT-Start-Gjovik/startgjovik_website"} projectTitle="Start Gjøvik Website"  />
 
-                <Project company="Bekk" projectTitle="NAV Submission System" description="A intern project for NAV" link="#" />
+                <Project company="Bekk" projectTitle="NAV Submission System" description="A intern project for NAV" link="https://github.com/bekk/nav-familie-endringsmelding" />
 
-                <Project company="NTNU" projectTitle="PROG2005 REST API" description="Course project for the PROG2005 course using Golang." link="#"  />
+                <Project company="NTNU" projectTitle="PROG2005 REST API" description="Course project for the PROG2005 course using Golang." link="https://github.com/KjetilIN/Renewable-Energy-REST-API"  />
 
                 
             </div>
